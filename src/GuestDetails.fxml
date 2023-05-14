@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="364.0" prefWidth="603.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GuestDetailsController">
+   <children>
+      <ImageView fitHeight="406.0" fitWidth="603.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="249.0" fitWidth="231.0" layoutX="349.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/19.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="22.0" fitWidth="22.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/8.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="36.0" layoutY="12.0" prefHeight="25.0" prefWidth="70.0" text="Reception" />
+      <Text layoutX="151.0" layoutY="64.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add Guest Details" wrappingWidth="338.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="67.0" layoutY="125.0" mnemonicParsing="false" onAction="#NameOnAction" prefHeight="25.0" prefWidth="168.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="Name" />
+      <Button layoutX="67.0" layoutY="159.0" mnemonicParsing="false" onAction="#NicNoOnAction" prefHeight="25.0" prefWidth="168.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="N.I.C. No" />
+      <Button layoutX="67.0" layoutY="195.0" mnemonicParsing="false" onAction="#TeleNoOnAction" prefHeight="25.0" prefWidth="168.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="Telephone No" />
+      <Button layoutX="71.0" layoutY="231.0" mnemonicParsing="false" onAction="#EmailOnAction" prefHeight="25.0" prefWidth="168.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="Email" />
+      <Button layoutX="71.0" layoutY="267.0" mnemonicParsing="false" onAction="#AddressOnAction" prefHeight="25.0" prefWidth="168.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="Address" />
+      <Button layoutX="499.0" layoutY="316.0" mnemonicParsing="false" onAction="#ExitOnAction" text="Exit" />
+   </children>
+</AnchorPane>

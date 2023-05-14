@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="374.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ReserveRoomController">
+   <children>
+      <ImageView fitHeight="402.0" fitWidth="612.0" layoutX="-12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="25.0" fitWidth="24.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/8.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="354.0" fitWidth="276.0" layoutX="300.0" layoutY="49.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/19.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="38.0" layoutY="13.0" prefHeight="25.0" prefWidth="73.0" text="reception" />
+      <Text layoutX="144.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Reserve A Room" wrappingWidth="337.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="48.0" layoutY="104.0" mnemonicParsing="false" onAction="#AddGuestDetailsOnAction" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="Add Guest Details" />
+      <Button layoutX="48.0" layoutY="162.0" mnemonicParsing="false" onAction="#CheckRoomAvailabilityOnAction" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="Check Room Availability" />
+      <Button layoutX="48.0" layoutY="215.0" mnemonicParsing="false" onAction="#SelectMealplanOnAction" prefHeight="25.0" prefWidth="223.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="Select Meal plan" />
+      <Button layoutX="510.0" layoutY="335.0" mnemonicParsing="false" onAction="#ExitOnAction" text="Exit" />
+   </children>
+</AnchorPane>

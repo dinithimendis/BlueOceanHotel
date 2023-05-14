@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="367.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AnnualReportsController">
+   <children>
+      <ImageView fitHeight="403.0" fitWidth="600.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="188.0" fitWidth="242.0" layoutX="327.0" layoutY="108.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/17.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="26.0" fitWidth="21.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/6.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="35.0" layoutY="12.0" prefHeight="25.0" prefWidth="53.0" text="admin" />
+      <Button layoutX="62.0" layoutY="108.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="2016" />
+      <Button layoutX="62.0" layoutY="207.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="2020" />
+      <Button layoutX="169.0" layoutY="134.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="2017" />
+      <Button layoutX="62.0" layoutY="159.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="2018" />
+      <Button layoutX="169.0" layoutY="184.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="2019" />
+      <Button layoutX="62.0" layoutY="257.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="2022" />
+      <Button layoutX="169.0" layoutY="232.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" style="-fx-background-color: #3BBBC3; -fx-background-radius: 20;" text="2021" />
+      <Text layoutX="166.0" layoutY="63.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Annual Reports" wrappingWidth="268.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="505.0" layoutY="304.0" mnemonicParsing="false" onAction="#ExitOnAction" text="Exit" />
+   </children>
+</AnchorPane>

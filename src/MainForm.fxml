@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="359.0" prefWidth="601.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainFormController">
+   <children>
+      <ImageView fitHeight="391.0" fitWidth="601.0" layoutY="-10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/2.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="32.0" layoutY="31.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome " wrappingWidth="160.13671875">
+         <font>
+            <Font name="Harlow Solid Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="32.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="     To" wrappingWidth="160.13671875">
+         <font>
+            <Font name="Harlow Solid Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text layoutX="14.0" layoutY="93.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Blue Ocean" wrappingWidth="257.13671875">
+         <font>
+            <Font name="Harlow Solid Italic" size="36.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="244.0" fitWidth="306.0" layoutX="253.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/1.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="62.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hotel " wrappingWidth="160.13671875">
+         <font>
+            <Font name="Harlow Solid Italic" size="36.0" />
+         </font>
+      </Text>
+      <Text fill="#1dc688" layoutX="47.0" layoutY="156.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Login Page" wrappingWidth="160.13671875">
+         <font>
+            <Font name="Harlow Solid Italic" size="24.0" />
+         </font>
+      </Text>
+      <TextField fx:id="userNameId" layoutX="21.0" layoutY="202.0" prefHeight="25.0" prefWidth="216.0" />
+      <TextField fx:id="passwordId" layoutX="19.0" layoutY="263.0" prefHeight="25.0" prefWidth="216.0" />
+      <Button layoutX="79.0" layoutY="305.0" mnemonicParsing="false" onAction="#logOnAction" text="Log In">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Text layoutX="21.0" layoutY="189.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name" wrappingWidth="134.13671875" />
+      <Text layoutX="21.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password" wrappingWidth="134.13671875" />
+   </children>
+</AnchorPane>

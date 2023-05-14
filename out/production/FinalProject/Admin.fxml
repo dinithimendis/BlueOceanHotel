@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="372.0" prefWidth="589.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="AdminController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="608.0" layoutX="-3.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/2.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="258.0" fitWidth="279.0" layoutX="301.0" layoutY="61.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/3.jpg" />
+         </image>
+      </ImageView>
+      <TextField layoutX="40.0" layoutY="24.0" prefHeight="25.0" prefWidth="60.0" text="admin" />
+      <ImageView fitHeight="25.0" fitWidth="26.0" layoutX="14.0" layoutY="24.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@image/6.jpg" />
+         </image>
+      </ImageView>
+      <Text fill="#2c6f47" layoutX="40.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="           Checking Duties" wrappingWidth="438.13671875">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Text>
+      <Button layoutX="74.0" layoutY="115.0" mnemonicParsing="false" onAction="#RoomsTypeOnAction" prefHeight="25.0" prefWidth="164.0" style="-fx-background-radius: 20; -fx-background-color: #3BBBC3;" text="Rooms Type" />
+      <Button layoutX="74.0" layoutY="173.0" mnemonicParsing="false" onAction="#MealPackageOnAction" prefHeight="25.0" prefWidth="164.0" style="-fx-background-radius: 20; -fx-background-color: #3BBBC3;" text="Meal Packages" />
+      <Button layoutX="74.0" layoutY="227.0" mnemonicParsing="false" onAction="#IncomeReportsOnAction" prefHeight="25.0" prefWidth="164.0" style="-fx-background-radius: 20; -fx-background-color: #3BBBC3;" text="Income Reports" />
+      <Button layoutX="515.0" layoutY="327.0" mnemonicParsing="false" onAction="#ExitOnAction" text="Exit" />
+   </children>
+</AnchorPane>
